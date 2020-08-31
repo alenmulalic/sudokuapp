@@ -36,3 +36,37 @@
     transform: rotate(360deg);
   }
 }
+/* with css reset */
+* { box-sizing: border-box; }
+table { margin: auto; color: black; }
+tr:first-child td {
+	border-top-color: rgb(0, 0, 0);
+}
+tr:nth-child(3n) td {
+	border-bottom-color: black;
+}
+td {
+	border: 1px solid lightgrey;
+	height: 40px;
+  width: 40px;
+  color: black;
+}
+td:first-child {
+	border-left-color: black;
+}
+td:nth-child(3n) {
+	border-right-color: black;
+}
+input {
+	padding: 0;
+	text-align: center;
+	border: 0;
+	height: 40px;
+	width: 40px;
+  text-align: center;
+ 
+}
+
+input:hover {
+	background: rgb(238, 238, 238);
+}
